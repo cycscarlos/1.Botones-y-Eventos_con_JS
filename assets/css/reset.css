@@ -76,7 +76,7 @@ video,
 iframe,
 figure {
   max-width: 100%;
-  width: 100%;
+  /* width: 100%; */
   display: block;
   -o-object-fit: cover;
   object-fit: cover;
@@ -116,7 +116,7 @@ i,
 b,
 u,
 em {
-  font-size: var(--step-0);
+  font-size: 1em;
   font-weight: inherit;
   font-style: inherit;
   text-decoration: none;
