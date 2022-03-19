@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --color-logo: #9d8d6c;
   --color-background: #000;
@@ -73,7 +81,7 @@ header {
 }
 @media screen and (min-width: 0px) and (max-width: 500px) {
   header {
-      padding: 0.625em 1.25em;
+    padding: 0.625em 1.25em;
     box-shadow: 0 0 0.05em cyan;
   }
   .profile {

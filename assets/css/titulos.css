@@ -3,7 +3,8 @@
   --color-logo: #9d8d6c;
   --color-background: #000;
   --font-header: "Times New Roman", cursive;
- 
+
+  --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);
   --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem);
   --step-0: clamp(1rem, 0.9rem + 0.49vw, 1.25rem);
   --step-5: clamp(2.49rem, 1.97rem + 2.59vw, 3.82rem);
